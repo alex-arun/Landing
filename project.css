@@ -1,0 +1,147 @@
+ body{
+    font-family:'PT sans',sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #ffff;
+    line-height: 1.6;
+ }
+ a{
+    text-decoration: none;
+    color: #cccccc;
+ }
+ #show{
+    margin: 0;
+    padding: 0;
+    background: url(./glp.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+   
+ }
+ #show .section{
+    margin-top: 25vh;
+ }
+#show h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+   
+}
+#show h2{
+    font-size: 2rem;
+   
+}
+nav{
+    height: 7vh;
+    width: 100vw;
+    background-color:  #333; 
+    color:rgb(51, 34, 34);
+    position: fixed;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+
+}
+li a:hover{
+    color: #fec009;
+}
+nav li:hover{
+    background-color: #444; 
+    height: 50px;  
+    
+}
+.section{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.para{
+    font-size: 1.3rem;
+}
+footer .ft1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+   }
+footer .ft1 ul{
+    list-style: none;
+}
+footer .ft1 ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 2px ;
+    margin-bottom: 1rem;
+}
+footer .copyright{
+    background-color: #3333;
+    padding: 1rem;
+    text-align: center;
+}
+p{
+    text-align: left;
+    color: rgba(219, 209, 209, 0.801);
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    color: rgb(32, 33, 33);
+    font-size: large;
+    background-color: #9e9999;
+    border:0px solid #eee;
+}
+
+
+button:hover{
+    background-color: #eee;
+    box-shadow: #444 ;
+    font-weight: normal;
+    text-align: center;
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+#avt{
+    height: 45px;
+    position: absolute;
+    left: 95vw;
+    top: 0px
+}
+.btn{
+    background-color: rgb(255, 128, 0);
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    transition: 2s background-color 2s linear;
+    color: #034ea2;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #fec009;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+.store:hover{
+    width: 220px;
+    height:70px;
+    transition-duration: 1s;
+}
