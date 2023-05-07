@@ -1,4 +1,4 @@
- body{
+body{
     font-family:'PT sans',sans-serif;
     background-color: #252529;
     margin: 0;
@@ -27,6 +27,7 @@
 #show h1{
     font-size: 4rem;
     margin-bottom: 0;
+    text-shadow: 2px 3px 2px white;
    
 }
 #show h2{
@@ -59,10 +60,15 @@ nav a{
 }
 li a:hover{
     color: #fec009;
+    transform: scale(1.2);
+    transition-duration: 1s;
 }
 nav li:hover{
     background-color: #444; 
     height: 50px;  
+    transform: scale(1.2);
+    transition-duration: 1s;
+
     
 }
 .section{
@@ -81,6 +87,7 @@ footer .ft1{
     padding: 2rem;
     text-align: left;
     font-size: 14px;
+    justify-content:space-evenly;
    }
 footer .ft1 ul{
     list-style: none;
@@ -129,7 +136,7 @@ button:hover{
     background-color: rgb(255, 128, 0);
     padding: 10px 15px 10px 15px;
     border-radius: 25px;
-    transition: 2s background-color 2s linear;
+    transition: 1s background-color linear;
     color: #034ea2;
     font-weight: 600;
 }
@@ -141,7 +148,6 @@ button:hover{
     transition-duration: 1s;
 }
 .store:hover{
-    width: 220px;
-    height:70px;
+   transform: scale(1.1);
     transition-duration: 1s;
 }
