@@ -27,7 +27,7 @@ body{
 #show h1{
     font-size: 4rem;
     margin-bottom: 0;
-    text-shadow: 2px 3px 2px white;
+   
    
 }
 #show h2{
@@ -68,8 +68,6 @@ nav li:hover{
     height: 50px;  
     transform: scale(1.2);
     transition-duration: 1s;
-
-    
 }
 .section{
     max-width: 1180px;
